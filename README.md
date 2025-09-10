@@ -8,16 +8,10 @@ It comes from a long time bug in Lutris. The source used to get cover arts is...
 
 1. Clone the repository
 
-2. Install the dependencies
+2. Run the script
 
 ```bash
-pip install -r requirements.txt
-```
-
-3. Run the script
-
-```bash
-python3 main.py
+uv run main.py
 ```
 
 > You need a SteamGridDB API key. You can get one [here](https://www.steamgriddb.com/profile/settings/api).
@@ -54,3 +48,4 @@ What the script does is that it fetches the list of games from Lutris at `/home/
 - Big thanks to the Lutris team!
 - Big thanks to SteamGridDB for their API and their resources!
 - Obvious thanks to StackOverflow!
+
